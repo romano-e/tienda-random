@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalle de Pieza | Estudio Creativo</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Estilos específicos rápidos para la vista de detalle */
+    .detalle-container { max-width: 1100px; margin: 4rem auto; padding: 0 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
+    .galeria img { width: 100%; border-radius: 4px; margin-bottom: 1rem; }
+    .grid-fotos-extra { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .info-tecnica h1 { font-size: 2.5rem; margin-bottom: 1.5rem; }
+    .info-tecnica .desc-larga { color: var(--text-muted); margin-bottom: 2rem; font-size: 1.1rem; }
+    .ficha-tecnica { border-top: 1px solid var(--border); padding-top: 1.5rem; }
+    .ficha-item { margin-bottom: 1rem; font-size: 1rem; }
+    .precio-item { margin-bottom: 1rem; font-size: 1rem; color:rgb(0, 0, 0) }
+    .ficha-item strong { color: var(--text-main); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.05em; }
+    .btn-regresar { display: inline-block; margin-bottom: 2rem; text-decoration: none; color: var(--accent); font-weight: 600; }
+    @media (max-width: 768px) { .detalle-container { grid-template-columns: 1fr; gap: 2rem; } }
+  </style>
+</head>
+<body>
+
+  <main class="detalle-container">
+    <!-- Columna Izquierda: Galería de Fotos -->
+    <div class="galeria">
+      <a href="index.html" class="btn-regresar">← Volver al catálogo</a>
+      <img id="detalle-img-principal" src="" alt="Imagen principal">
+      <div id="galeria-extras" class="grid-fotos-extra"></div>
+    </div>
+
+    <!-- Columna Derecha: Información Completa -->
+    <div class="info-tecnica">
+      <h1 id="detalle-nombre">Cargando...</h1>
+      <p id="detalle-desc-larga" class="desc-larga"></p>
+      
+      <div class="ficha-tecnica">
+        <div class="ficha-item">
+          <strong>Materiales:</strong>
+          <span id="detalle-materiales"></p>
+        </div>
+        <div class="ficha-item">
+          <strong>Medidas:</strong>
+          <span id="detalle-medidas"></p>
+        </div>
+        <div class="ficha-item">
+          <strong>Código de Producto:</strong>
+          <span id="codigo-producto"></p>
+        </div>
+        <div class="ficha-item cont-precio">
+          <strong>Precio de Producto:</strong>
+          <!-- Añadimos un contenedor span al precio original para poder tacharlo con CSS -->
+          <span id="precio-producto"></span>
+       </div>
+
+       <!-- NUEVO ELEMENTO: Oculto por defecto con CSS, se activará con JS -->
+       <div id="cont-precio-especial" class="ficha-item precio-especial-bloque" style="display: none;">
+           <strong>Precio Especial:</strong>
+           <span id="precio-especial"></span>
+       </div>
+      </div>
+   <!-- ==========================================================================
+     ¡NUEVO BLOQUE DE ADQUISICIÓN!
+     ========================================================================== -->
+  <div class="bloque-adquisicion">
+    <h3>¿Te interesa esta pieza?</h3>
+    <p>Contáctanos por cualquiera de nuestros canales para consultar disponibilidad proporcionando el código de producto o pregunta por pedidos especiales:</p>
+    
+    <div class="botones-adquisicion">
+      <a href="https://www.instagram.com/tienda.random.oficial" target="_blank" class="btn-adq btn-instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        Pregunta En Instagram
+      </a>
+      
+      <a href="https://www.facebook.com/people/Tienda-Random/61590134497316/" target="_blank" class="btn-adq btn-facebook">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+        Pregunta en Facebook
+      </a>
+    </div>
+  </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="contacto-info">
+        <h3>Contacto</h3>
+        <p><a href="mailto:hola@estudiocreativo.com">hola@estudiocreativo.com</a></p>
+      </div>
+      
+      <div class="redes-sociales">
+        <h3>Síguenos</h3>
+        <div class="iconos-wrapper">
+          <a href="https://www.instagram.com/tienda.random.oficial" aria-label="Instagram">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <!-- Icono de Facebook (Mismo estilo minimalista) -->
+          <a href="https://www.facebook.com/people/Tienda-Random/61590134497316/" aria-label="Facebook">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 Random Store</p>
+  </footer>
+
+<script src="js/detail.js"></script>
+</body>
+</body>
+</html>

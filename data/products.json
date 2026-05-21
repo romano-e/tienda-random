@@ -1,0 +1,107 @@
+[
+  {
+    "id": "prod-01",
+    "nombre": "Llaveros / Placas de Consolas",
+    "descripcion": "Demuestra tu participación pasiva en la guerra de consolas apoyando a la que más te gusta... pero no seas toxic@",
+    "imagen": "assets/img/products/placeholder1.png",
+    "descripcion_larga": "Un llavero de doble vista para mostrar tu consola favorita, no pelees por cual es la mejor, solo disfruta la fruta y demuestra tu plaquita, puedes regalarla a tu amigo consolero",
+    "medidas": "25cm x 15cm x 10cm",
+    "precio": "XXXX",
+    "precio_promocion": "",
+    "disponible": "NO",
+    "materiales": "Madera maciza de Nogal y acabado en cera de abeja natural.",
+    "fotos_adicionales": [
+      "assets/img/products/placeholder1.png",
+      "assets/img/products/placeholder2.png"
+    ]
+  },
+  {
+    "id": "L-PX-01",
+    "nombre": "LLavero Patita",
+    "descripcion": "Un llavero con forma de, pata, o garra de gato / perro",
+    "imagen": "assets/img/products/L-PX-01-A.avif",
+    "descripcion_larga": "¿Te fascinan las mascotas? Presumelo con este llaverito de patita de perro, elegante y relativamente discreto por sus medidas",
+    "medidas": "6.5cm x 3.5cm",
+    "codigo": "L-PX-01",
+    "materiales": "Metal",
+    "precio": "$30.00",
+    "disponible": "YES",
+    "fotos_adicionales": [
+      "assets/img/products/L-PX-01-A.avif",
+      "assets/img/products/L-PX-01-B.avif"
+    ]
+  },
+  {
+    "id": "L-GP-01",
+    "nombre": "Llavero Gatito con Pez",
+    "descripcion": "Un llavero de gatito con un pez",
+    "imagen": "assets/img/products/L-GP-01-A.avif",
+    "descripcion_larga": "Si te gustan los gatitos ¿qué más puedes pedir?",
+    "medidas": "2.9cm x 2.3cm",
+    "materiales": "Acero",
+    "precio": "$30.00",
+    "fotos_adicionales": [
+      "assets/img/products/L-GP-01-A.avif",
+      "assets/img/products/L-GP-01-B.avif"
+    ]
+  },
+  {
+    "id": "P-GL-01",
+    "nombre": "Pin de Gato en Lata",
+    "descripcion": "Elige de entre uno de 6 pines disponibles de gatitos en lata",
+    "imagen": "assets/img/products/P-GL-01-A.jpg",
+    "descripcion_larga": "Gatos en latas de atún, carnita, salmon... Puedes elegir uno de los 6 disponibles. El precio es por cada uno",
+    "medidas": "Aprox. 2.9cm x 2.8cm",
+    "materiales": "Metal",
+    "precio": "$20.00 - OJO: Cada Uno",
+    "fotos_adicionales": [
+      "assets/img/products/P-GL-01-A.jpg",
+      "assets/img/products/P-GL-01-B.jpg"
+    ]
+  },
+  {
+    "id": "L-GU-01",
+    "nombre": "Llavero gatos de amorts",
+    "descripcion": "Un par de llaveros de gatos que se ensamblan, ideal para regalar",
+    "imagen": "assets/img/products/L-GU-01-A.avif",
+    "descripcion_larga": "¿A quien le regalarias uno de los llaveros? Si tu novi@ es fan de los gatitos y tú también ¿Qué esperas para obtener este bonito llavero?",
+    "medidas": "Aprox. 2.5cm x 2.9cm",
+    "materiales": "Metal",
+    "precio": "$80.00",
+    "precio_promocion": "$50 - Por Los Dos Gatitos",
+    "disponible": "SI",
+    "fotos_adicionales": [
+      "assets/img/products/L-GU-01-A.avif",
+      "assets/img/products/L-GU-01-B.avif"
+    ]
+  },
+  {
+    "id": "P-VG-01",
+    "nombre": "Placas Videojuegos Random",
+    "descripcion": "Placas de Distintos Juegos. ¡Explora las opciones!",
+    "imagen": "assets/img/products/P-VG-01-A.jpg",
+    "descripcion_larga": "Placas de Distintos y Populares Juegos, Elige tu Favorita. Vienen grabas de ambos lados. La venta es por placa, cuando la compres verás de un lado un logo y del otro lado uno diferente. Inlcuimos un colgante tipo llavero en tu compra",
+    "medidas": "Aprox. 2cm x 5cm",
+    "materiales": "Metal",
+    "precio": "$25.00 - Por Pieza",
+    "fotos_adicionales": [
+      "assets/img/products/P-VG-01-A.jpg",
+      "assets/img/products/P-VG-01-B.jpg",
+      "assets/img/products/P-VG-01-C.jpg"
+    ]
+  },
+  {
+    "id": "P-DS-01",
+    "nombre": "Placas Demon Slayer",
+    "descripcion": "Placas del Demon Slayer ¡Explora las opciones!",
+    "imagen": "assets/img/products/P-DS-01-A.jpg",
+    "descripcion_larga": "Placa de Demon Slayer con la Nezuko enojada de un lado y el logo del otro. Inlcuimos un colgante tipo llavero en tu compra",
+    "medidas": "Aprox. 2cm x 5cm",
+    "materiales": "Metal",
+    "precio": "$25.00 - Por Pieza",
+    "fotos_adicionales": [
+      "assets/img/products/P-DS-01-A.jpg"
+    ]
+  }
+
+]

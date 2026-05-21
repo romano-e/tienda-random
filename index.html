@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Random | Objetos Únicos</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text-wrapper">
+        <h1>TIENDA RANDOM</h1>
+        <h2>Creando y ofreciendo objetos y servicios aleatorios... pero bonitos</h2>
+      </div>
+    </div>
+  </header>
+
+  <section class="catalogo">
+    <h2>Catálogo de Piezas Random</h2>
+    <div id="contenedor-productos" class="grid-productos"></div>
+  </section>
+
+  <dialog id="modal-producto" class="modal">
+    <div class="modal-content">
+      <button id="cerrar-modal" class="btn-cerrar">&times;</button>
+      <img id="modal-img" src="" alt="Detalle del producto">
+      <h3 id="modal-titulo"></h3>
+      <p id="modal-desc"></p>
+      <!-- NUEVO BOTÓN -->
+      <a id="modal-link" href="#" class="btn-ver-mas">Detalles Completos</a>
+    </div>
+  </dialog>
+
+
+  <section class="valores">
+    <h2>Puntos Random</h2>
+    <div class="grid-valores">
+      <div class="valor-item">
+        <h3>De Todo Tipo</h3>
+        <p>Pero quizás no de todos los gustos, da un vistazo, no se paga por ver</p>
+      </div>
+      <div class="valor-item">
+        <h3>Random = Aleatorio</h3>
+        <p>Productos y servicios aleatorios, no siempre venderemos lo mismo</p>
+      </div>
+      <div class="valor-item">
+        <h3>¿Lo Quieres Único?</h3>
+        <p>Algunos objetos pueden ser personalizados, ponle tu propio toque</p>
+      </div>
+      <div class="valor-item">
+        <h3>Poquito Por Que Es Bendito</h3>
+        <p>No tenemos mayoreo, todo es hecho con amor, comprensión y ternura</p>
+      </div>
+      <div class="valor-item">
+        <h3>¿Otaku o Gamer?</h3>
+        <p>Otaku, Gamer, Friki, Geek, Nerd, Idol, Cinefilos, Punks, Emos... Todos son bienvenidos</p>
+      </div>
+      <div class="valor-item">
+        <h3>Vi algo que me gusta</h3>
+        <p>Puedes comprar para regalar, uso personal o simplemente como un pequeño gusto, buscanos en redes sociales</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="contacto-info">
+        <h3>Contacto</h3>
+        <p><a href="mailto:xxxxx">-</a></p>
+      </div>
+      
+      <div class="redes-sociales">
+        <h3>Síguenos</h3>
+        <div class="iconos-wrapper">
+          <a href="https://www.instagram.com/tienda.random.oficial" aria-label="Instagram">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <!--<a href="#" aria-label="GitHub">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a> -->
+          <!-- Icono de Facebook (Mismo estilo minimalista) -->
+          <a href="https://www.facebook.com/people/Tienda-Random/61590134497316/" aria-label="Facebook">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 Random Store</p>
+  </footer>
+
+  <script src="js/app.js?v=1.0.2"></script>
+</body>
+</html>
